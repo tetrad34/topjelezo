@@ -1,0 +1,62 @@
+*,html {
+    padding: 0px;
+    margin: 0px;
+}
+.osnova {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.pic {
+    height: 200px;
+    border: 2px dotted rgb(68, 238, 187);
+    margin: 0px 10px 0px 10px;
+    border-radius: 30px;
+}
+.pic img {
+    height: 200px;
+}
+.pic a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.spis ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.spis {
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(189, 234, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+ul p {
+    font-size: 18pt;
+    font-family: 'Kanit', sans-serif;
+}
+ul li {
+    height: 15%;
+    margin: 0 auto;
+}
+ul a {
+    text-decoration: none;
+    color: rgb(255, 114, 114);
+}
+  p:hover {
+    transform: scale(1.4);
+    text-shadow: 0px 0px 15px rgb(10, 255, 222);
+    transition: .2s;
+}
+@media  (min-width: 0px) and (max-width: 1255px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+}
